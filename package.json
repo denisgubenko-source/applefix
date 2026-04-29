@@ -1,0 +1,29 @@
+{
+    "name":  "applefix-ee",
+    "version":  "0.1.0",
+    "private":  true,
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build --webpack",
+                    "start":  "node server.js",
+                    "lint":  "eslint"
+                },
+    "dependencies":  {
+                         "nodemailer":  "^8.0.5",
+                         "@types/nodemailer":  "^8.0.0",
+                         "react":  "19.2.4",
+                         "@types/react-dom":  "^19",
+                         "next":  "16.2.3",
+                         "zod":  "^4.3.6",
+                         "@types/node":  "^20",
+                         "react-dom":  "19.2.4",
+                         "@types/react":  "^19",
+                         "typescript":  "^5",
+                         "tailwindcss":  "^4",
+                         "@tailwindcss/postcss":  "^4"
+                     },
+    "devDependencies":  {
+                            "eslint-config-next":  "16.2.3",
+                            "eslint":  "^9"
+                        }
+}
